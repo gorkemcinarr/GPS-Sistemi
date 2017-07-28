@@ -1,1 +1,1 @@
-case "gpstakip": {4};
+case "gpstakipcihazi": {4};
