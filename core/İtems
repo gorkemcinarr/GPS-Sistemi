@@ -7,7 +7,7 @@ private["_unit"];
 _unit = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
 if(isNull _unit) exitWith {};
 if(!(_unit isKindOf "AllVehicles")) exitWith {hint "Takip Cihası Kullanıldı mı?!"};
-if(player distance _unit > 7) exitWith {hint "Approchez vous du véhicule!"};
+if(player distance _unit > 7) exitWith {hint "Araca Yaklaşınız."};
 if(!([false,"gpstakipcihazi",1] call life_fnc_handleInv)) exitWith {};
 closeDialog 0;
 
