@@ -16,7 +16,7 @@ life_action_inUse = true;
 player playMove "AinvPknlMstpSnonWnonDnon_medic_1";
 sleep 4;
 life_action_inUse = false;
-if(player distance _unit > 7) exitWith {titleText["Arac Secmen Gerekmektedir!","PLAIN"];};
+if(player distance _unit > 7) exitWith {titleText["Arac Seçmeniz Gerekmektedir!","PLAIN"];};
 titleText["GPS Takip Cihazı Araça Takıldı.","PLAIN"];
 
 
